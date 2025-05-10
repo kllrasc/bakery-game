@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -18,9 +19,11 @@ export default function Home() {
           Bake delicious treats and grow your bakery business
         </p>
         <div className="mt-8">
-          <button className="btn btn-primary text-lg px-8 py-3">
-            Start Baking
-          </button>
+          <Link href="/recipes">
+            <button className="btn btn-primary text-lg px-8 py-3">
+              Start Baking
+            </button>
+          </Link>
         </div>
       </main>
     </div>
