@@ -4,23 +4,56 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-center">
+    <div style={{ 
+      minHeight: '100vh', 
+      display: 'flex', 
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#FFFFFF'
+    }}>
       <Head>
         <title>Bakery Game</title>
         <meta name="description" content="A fun bakery management game" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-4 text-center">
-        <h1 className="text-6xl font-bold text-primary mb-4">
+      <main style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '100%',
+        padding: '0 1rem',
+        textAlign: 'center'
+      }}>
+        <h1 style={{
+          fontSize: '4rem',
+          fontWeight: 'bold',
+          color: '#FF9F1C',
+          marginBottom: '1rem'
+        }}>
           Bakery Game
         </h1>
-        <p className="text-xl text-gray-700 mt-4">
+        <p style={{
+          fontSize: '1.25rem',
+          color: '#555',
+          marginTop: '1rem'
+        }}>
           Bake delicious treats and grow your bakery business
         </p>
-        <div className="mt-8">
-          <Link href="/recipes">
-            <button className="btn btn-primary text-lg px-8 py-3">
+        <div style={{ marginTop: '2rem' }}>
+          <Link href="/recipes" style={{ textDecoration: 'none' }}>
+            <button style={{
+              backgroundColor: '#FF9F1C',
+              color: 'white',
+              border: 'none',
+              padding: '0.75rem 2rem',
+              borderRadius: '0.375rem',
+              fontSize: '1.125rem',
+              fontWeight: '500',
+              cursor: 'pointer'
+            }}>
               Start Baking
             </button>
           </Link>
