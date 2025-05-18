@@ -1,6 +1,35 @@
 # Bakery Game
 
-A fun web-based bakery management game where you can bake goods, sell them, and expand your bakery business.
+A simple web-based bakery game where you can choose different recipes to bake.
+
+## About
+
+This project is a static website featuring:
+- A home page with a "Start Baking" button
+- A recipes page showing different baking options
+- Simple, clean design with responsive layout
+
+## Deployment
+
+This project is deployed as a static site on Vercel:
+- URL: https://bakery-game.vercel.app/
+
+## Project Structure
+
+```
+/static
+  - index.html     # Home page
+  - recipes.html   # Recipe selection page
+  - styles.css     # Styling for both pages
+```
+
+## Development
+
+To run this project locally:
+1. Clone the repository
+2. Open the HTML files in your browser
+
+No build step is required since this is a static HTML site.
 
 ## Features
 
