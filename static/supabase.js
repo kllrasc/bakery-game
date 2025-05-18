@@ -1,7 +1,7 @@
 // Initialize Supabase client
-// You'll need to replace these with your own Supabase URL and anon key
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
+// Connection to your Supabase project
+const supabaseUrl = 'https://cxsmusbbgiiiywalaord.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN4c211c2JiZ2lpaXl3YWxhb3JkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0ODMxMzYsImV4cCI6MjA2MjA1OTEzNn0.gCoz5Bb46Pdha2eR3WO5KgxnstZIzRn0-RSjwSwQbi0';
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
 // Function to get image URLs from Supabase Storage
