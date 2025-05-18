@@ -7,6 +7,41 @@ export default function RecipesPage() {
       backgroundColor: '#ffebcd'
     }}>
       <h1 style={{ color: 'brown' }}>Recipe Selection</h1>
+      
+      {/* Test image section */}
+      <div style={{ marginBottom: '30px', border: '2px dashed red', padding: '15px' }}>
+        <h3>Test Images</h3>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+          <div>
+            <p>SVG Test:</p>
+            <img 
+              src="/images/test-circle.svg" 
+              alt="Test SVG" 
+              width="100"
+              height="100"
+            />
+          </div>
+          <div>
+            <p>Original PNG:</p>
+            <img 
+              src="/images/strawberry-cake.PNG" 
+              alt="Strawberry Cake PNG" 
+              width="100"
+              height="100"
+            />
+          </div>
+          <div>
+            <p>Lowercase PNG:</p>
+            <img 
+              src="/images/strawberry-cake.png" 
+              alt="Strawberry Cake png" 
+              width="100"
+              height="100"
+            />
+          </div>
+        </div>
+      </div>
+      
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '30px' }}>
         <div style={{ padding: '20px', backgroundColor: 'pink', borderRadius: '10px', width: '200px' }}>
           <img 
