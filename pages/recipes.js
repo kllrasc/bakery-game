@@ -10,7 +10,7 @@ export default function RecipesPage() {
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '30px' }}>
         <div style={{ padding: '20px', backgroundColor: 'pink', borderRadius: '10px', width: '200px' }}>
           <img 
-            src="/images/strawberry-cake.png" 
+            src="/images/strawberry-cake.PNG" 
             alt="Strawberry Cake" 
             style={{ width: '100%', borderRadius: '8px', marginBottom: '15px' }}
           />
