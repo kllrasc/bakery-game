@@ -53,6 +53,17 @@ export default function HomePage() {
         >
           Test Page
         </a>
+        
+        <a 
+          href="/image-test" 
+          style={{
+            color: '#555',
+            textDecoration: 'underline',
+            marginTop: '10px'
+          }}
+        >
+          Image Test
+        </a>
       </div>
     </div>
   );
